@@ -1,0 +1,298 @@
+.mission-statement-container {
+    margin-top: 100px;
+}
+
+.QUIX-STORY {
+    text-align: center;
+    font-size: 45px;
+}
+
+.mission-statement {
+    padding: 50px 0;
+}
+
+.mission-statement p {
+    font-size: 21px;
+    width: 60%;
+    margin: auto;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.company-story {
+    display: flex;
+    background-color: #dbeef6;
+    padding: 70px;
+}
+
+.csi-container {
+    display: flex;
+    gap: 40px;
+}
+
+.cs-sec-1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cs-sec-1 img {
+    width: 550px;
+}
+
+.cs-sec-2 {
+    width: 60%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; */
+}
+
+.cs-sec-2-heading {
+    font-size: 36px;
+    margin-top: 70px;
+}
+.cs-sec-2 :nth-child(2) {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 35px;
+}
+
+.who-we-serve {
+    display: flex;
+    padding: 70px;
+}
+
+.wwsi-container {
+    display: flex;
+    gap: 40px;
+}
+
+.wws-sec-hidden {
+    display: none;
+}
+
+.wws-sec-1 {
+    width: 60%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px; */
+    /* padding-left: 250px; */
+}
+
+.wws-sec-1-heading {
+    font-size: 36px;
+    margin-top: 70px;
+    text-align: right;
+    padding-right: 30px;
+    /* margin-right: 535px; */
+}
+
+.wws-sec-1 :nth-child(2) {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 35px;
+}
+
+.wws-sec-2 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.wws-sec-2 img {
+    width: 550px;
+}
+
+.our-values {
+    display: flex;
+    background-color: #dbeef6;
+    gap: 40px;
+    padding: 70px;
+}
+
+.ovi-container {
+    display: flex;
+    gap: 40px;
+}
+
+.ov-sec-1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ov-sec-1 img {
+    width: 550px;
+}
+
+.ov-sec-2 {
+    width: 60%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; */
+}
+
+.ov-sec-2-heading {
+    font-size: 36px;
+    margin-top: 70px;
+}
+.ov-sec-2 :nth-child(2) {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 35px;
+}
+
+/*MEDIA QUERY!!! MEDIA QUERY!!! MEDIA QUERY!!! MEDIA QUERY!!! MEDIA QUERY!!! MEDIA QUERY!!! MEDIA QUERY!!! */
+@media(max-width: 1199px) {
+    .company-story {
+        padding: 50px;
+    }
+    .cs-sec-1 img {
+        width: 450px;
+    }
+    .cs-sec-2:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .who-we-serve {
+        padding: 50px;
+    }
+    .wws-sec-1 :nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .wws-sec-2 img {
+        width: 450px;
+    }
+    .our-values {
+        padding: 50px;
+    }
+    .ov-sec-1 img {
+        width: 450px;
+    }
+    .ov-sec-2:nth-child(2) {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 1114px) {
+    .company-story {
+        display: block;
+    }
+    .csi-container {
+        display: block;
+        width: 720px;
+        margin: auto;
+    }
+    .cs-sec-2-heading {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .cs-sec-1 {
+        width: 100%;
+        display: block;
+    }
+    .cs-sec-1 img {
+        width: 720px;
+        display: block;
+    }
+    .cs-sec-2 {
+        width: 100%;
+    }
+    .who-we-serve {
+        display: block;
+    }
+    .wwsi-container {
+        display: block;
+        width: 720px;
+        margin: auto;
+    }
+    .wws-sec-1-heading {
+        text-align: left;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .wws-sec-2 {
+        display: none;
+    }
+    .wws-sec-hidden {
+        width: 100%;
+        display: block;
+    }
+    .wws-sec-hidden img {
+        width: 720px;
+        display: block;
+    }
+    .wws-sec-1 {
+        width: 100%;
+    }
+    .our-values {
+        display: block;
+    }
+    .ovi-container {
+        display: block;
+        width: 720px;
+        margin: auto;
+    }
+    .ov-sec-2-heading {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .ov-sec-1 {
+        width: 100%;
+        display: block;
+    }
+    .ov-sec-1 img {
+        width: 720px;
+        display: block;
+    }
+    .ov-sec-2 {
+        width: 100%;
+    }
+}
+
+@media(max-width: 785px) {
+    .csi-container {
+        width: 100%
+    }
+    .cs-sec-1 img {
+        width: 100%;
+        display: block;
+    }
+    .wwsi-container {
+        width: 100%;
+    }
+    .wws-sec-hidden img {
+        width: 100%;
+        display: block;
+    }
+    .ovi-container {
+        width: 100%;
+    }
+    .ov-sec-1 img {
+        width: 100%;
+        display: block;
+    }
+    .QUIX-STORY {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .mission-statement {
+        padding: 25px 0;
+    }
+    
+    .mission-statement p {
+        font-size: 18px;
+        width: 90%;
+        margin: auto;
+        line-height: 1.8;
+        text-align: center;
+        padding: 10px;
+    }
+}

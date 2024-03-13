@@ -1,0 +1,296 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+}
+
+.logo {
+    padding: 8px 16px;
+    margin: 0 0 0 20px;
+}
+
+.logo a {
+    color: #0056d4;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style-type: none;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 0;
+}
+
+.nav-list-item a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.ham-menu-container {
+    display: none;
+}
+
+.ham-menu {
+    font-size: 23px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.info-section {
+    margin: 70px 0 0 0;
+    background-color: #dbeef6;
+    display: flex;
+    height: 500px;
+}
+
+.info-section-helper-div {
+    width: 15%;
+}
+
+.is-1 { /*info-section-1*/
+    width: 650px;
+    flex-shrink: 0;
+}
+
+.is-2 { /*info-section-2*/
+    width: 662px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.info-img-container {
+    border: 1px solid green;
+    width: 60%;
+    height: 80%;
+    border-radius: 300% 200% 200% 200% / 200% 200% 140% 200%;
+    overflow: hidden;
+    margin: 5%
+}
+
+.info-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.yellow-circles {
+    display: inline;
+    position: absolute;
+    left: 58%;
+    top: 73%;
+}
+
+.quix {
+    font-weight: bold;
+    font-family: "Protest Strike", sans-serif;
+    color: #0056d4;
+    font-size: 60px;
+    margin-top: 11%;
+}
+
+.info {
+    font-size: 23px;
+    margin: 8% 0 0 0;
+    line-height: 1.5;
+}
+
+.hidden-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: none;
+}
+
+.hidden-image-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 300% 200% 200% 200% / 200% 200% 140% 200%;
+    overflow: hidden;
+}
+
+.hidden-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.free-access-info {
+    font-weight: 570;
+    margin-top: 9%;
+}
+
+.access-courses-container {
+    margin-top: 2%;
+}
+
+.access-courses a {
+    padding: 12px 32px;
+    background-color: #0056d4;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 570;
+    width: 150px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.dynamic-info-container {
+    padding: 30px;
+    font-size: 25px;
+    display: flex;
+}
+
+.dic-half-1 {
+    width: 52.5%;
+    text-align: right;
+}
+
+.dic-half-2 {
+    padding-left: 8px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/*Style elements in the modal here*/
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgba(219, 238, 246, 0.8);
+    display: none;
+}
+
+.close-menu-container {
+    display: flex;
+    justify-content: end;
+    padding: 20px 50px;
+    background-color: white;
+}
+
+.close-menu {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modal-nav-list-item {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.modal-nav-list-item:nth-child(1) {
+    border-top: 1px solid black;
+}
+
+.modal-nav-list-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/*HIDDEN CSS HIDDEN CSS HIDDEN CSS HIDDEN CSS HIDDEN CSS HIDDEN CSS HIDDEN CSS HIDDEN CSS HIDDEN CSS*/
+.show-modal {
+    display: block;
+}
+
+.hide-modal {
+    display: none;
+}
+
+.hide-close-menu {
+    display: none;
+}
+
+.hide-modal-nav-bar {
+    display: none;
+}
+
+.show-modal-nav-bar {
+    display: block;
+}
+
+@media (max-width: 1317px) {
+    .info-section-helper-div {
+        display: none;
+    }
+    .is-1 {
+        width: 50%;
+        flex-shrink: 1;
+    }
+    .is-2 {
+        width: 50%;
+        flex-shrink: 1;
+    }
+    .info-img-container {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 930px) {
+    .ham-menu-container {
+        display: block;
+    }
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (min-width: 931px) {
+    .modal-nav-bar {
+        display: none;
+    }
+}
+
+@media (max-width: 870px) {
+    .info-section {
+        flex-direction: column;
+        height: auto;
+    }
+    .is-1 {
+        width: auto;
+        text-align: center;
+    }
+    .is-2 {
+        display: none;
+    }
+    .quix {
+        margin-top: 25px;
+    }
+    .info {
+        padding: 0 10px;
+        margin-top: 10px;
+    }
+    .hidden-image {
+        margin-top: 25px;
+        display: flex;
+    }
+}
